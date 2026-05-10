@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,47 +8,71 @@
   <link rel="stylesheet" href="main.css" />
   <script type=module src="men.js">
   </script>
-  <link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Bricolage+Grotesque:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Bricolage+Grotesque:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
 </head>
+
 <body>
 
   <!-- NAV -->
   <nav class="navbar">
     <div class="nav-inner">
-      
+
       <div class="logo">
-        <div class = 'earth'>
-         <img src = "earth1.png">
+        <div class='earth'>
+          <img src="earth1.png">
         </div>
-       
+
       </div>
       <div class="hero-search">
         <div class="search-pin">
           <input type="text" placeholder="Enter your delivery address..." />
+          <button class="search-btn">Find Stores</button>
+          <br>
         </div>
-        <button class="search-btn">Find Stores</button>
+
       </div>
-       <button onclick="openNewWindow()">MY BLOGS!</button>
-    
-    <script>
-        // Opening a new window
-        function openNewWindow() {
-            window.open('', '_blank');
-        }
-    </script>
 
 
-      <ul class="nav-links"><br>
-        <li><a href="#categories">Shop</a></li>
-        <li><a href="#how">How it Works</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#app">Get App</a></li>
-      </ul>
-      <div class="nav-actions">
-        <a href="#" class="btn-outline">Sign In</a>
-        <a href="#" class="btn-primary">Order Now</a>
+
+      <div class="nav-links"><br>
+
+
+        <button onclick="openNewWindow()">
+          <h2 class='stars'>  MY BLOGS! </h2>
+        </button>
+
+        <script>
+
+          function openNewWindow() {
+            window.open('https://github.com/artanrai4444-netizen/store.git', '_blank');
+          }
+          
+        </script>
+
+
+        <button href="#" class="stars">🛍️ Shop</button>
+        <button href="#" class="stars">⚙️ How it Works</button><br>
+        <button href="#" class="stars">✨ Features</button>
+        <button href="#" class="stars">📱 Get App</button>
+
+
+
+
+        <div class="btn-actions">
+          <button onclick="openNewWindow1()" class="btn-outline">❤️‍🩹signIn</button>
+          <script>
+
+          function openNewWindow1() {
+            window.open('myaccount/myaccount.html', '_blank');
+          }
+          
+        </script>
+
+          <button onclick="openNewWindow2()" class="btn-primary">Order Now</button>
+        </div>
       </div>
-    </div>
   </nav>
 
   <!-- CATEGORIES -->
@@ -55,36 +80,40 @@
     <div class="section-inner">
       <div class="section-header">
         <p class="section-tag">Browse</p>
-        <h2 class="section-title">Everything You Need,<br/>One Tap Away</h2>
+        <h2 class="section-title">Everything You Need,<br />One Tap Away</h2>
       </div>
 
       <div class="cat-grid">
         <div class="cat-card cat-c1" style="--delay:0s">
-          <div class="cat-emoji"><a href = "#"> <img src="https://m.media-amazon.com/images/I/71xqIJoM6jL._AC_UF894,1000_QL80_.jpg" alt=""> <br></a></div>
+          <div class="cat-emoji"><a href="#"> <img
+                src="https://m.media-amazon.com/images/I/71xqIJoM6jL._AC_UF894,1000_QL80_.jpg" alt=""> <br></a></div>
           <h3>Classic American cream and Onion Lays </h3>
           <p>Rs 20</p>
-          
+
           <span class="cat-count">100+</span>
           <div class="cat-arrow">→</div>
         </div>
         <div class="cat-card cat-c2" style="--delay:0.08s">
-          <div class="cat-emoji"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrd843pXN8Ae7Dfx7LzDDWzoZ_fMvnamFANQ&s"></div>
+          <div class="cat-emoji"><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrd843pXN8Ae7Dfx7LzDDWzoZ_fMvnamFANQ&s"></div>
           <h3>Fruits</h3>
           <p>Seasonal Top picks</p>
           <div class="cat-arrow">→</div>
         </div>
         <div class="cat-card cat-c3" style="--delay:0.16s">
-          <div class="cat-emoji"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRG97g7sPaKep1E4algQkUjGKNnV9I8Wx3rg&s"></div>
+          <div class="cat-emoji"><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRG97g7sPaKep1E4algQkUjGKNnV9I8Wx3rg&s"></div>
           <h3>Dairy & Eggs</h3>
           <p>Always fresh, always cold</p>
           <span class="cat-count">95+ items</span>
           <div class="cat-arrow">→</div>
         </div>
         <div class="cat-card cat-c4" style="--delay:0.24s">
-          <div class="cat-emoji"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbT0S8Faq05s5EC-WTi971TI-IzVBtvjWiJw&s"></div>
+          <div class="cat-emoji"><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbT0S8Faq05s5EC-WTi971TI-IzVBtvjWiJw&s"></div>
           <h3>popcorn break</h3>
           <p>Munchies for every mood</p>
-          
+
           <div class="cat-arrow">→</div>
         </div>
         <div class="cat-card cat-c5" style="--delay:0.32s">
@@ -119,16 +148,16 @@
     </div>
   </section>
 
-  
 
- 
+
+
 
   <!-- DEALS BANNER -->
   <section class="deals-section">
     <div class="deals-inner">
       <div class="deals-left">
         <span class="deals-tag">Limited Offer</span>
-        <h2>First Order<br/><span class="deals-highlight">Free Delivery</span></h2>
+        <h2>First Order<br /><span class="deals-highlight">Free Delivery</span></h2>
         <p>Use code <strong>VISTAFAST</strong> at checkout</p>
         <a href="#" class="btn-white">Grab the deal →</a>
       </div>
@@ -141,86 +170,88 @@
       </div>
     </div>
 
- 
-  <section class="app-section" id="app">
-    <div class="section-inner">
-      <div class="section-header centered">
-        <p class="section-tag">Get the App</p>
-        <h2 class="section-title">Vista Go in Your Pocket</h2>
-        <p class="section-sub">Order groceries, track delivery in real time, and manage your pantry — all from one beautiful app.</p>
-      </div>
 
-      <div class="app-buttons">
-        <a href="#" class="app-btn">
-          <span class="app-btn-icon">🍎</span>
-          <div>
-            <span class="app-btn-small">Download on</span>
-            <span class="app-btn-store">App Store</span>
+    <section class="app-section" id="app">
+      <div class="section-inner">
+        <div class="section-header centered">
+          <p class="section-tag">Get the App</p>
+          <h2 class="section-title">Vista Go in Your Pocket</h2>
+          <p class="section-sub">Order groceries, track delivery in real time, and manage your pantry — all from one
+            beautiful app.</p>
+        </div>
+
+        <div class="app-buttons">
+          <a href="#" class="app-btn">
+            <span class="app-btn-icon">🍎</span>
+            <div>
+              <span class="app-btn-small">Download on</span>
+              <span class="app-btn-store">App Store</span>
+            </div>
+          </a>
+          <a href="#" class="app-btn">
+            <span class="app-btn-icon">▶</span>
+            <div>
+              <span class="app-btn-small">Get it on</span>
+              <span class="app-btn-store">Google Play</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text">Vista<span class="logo-accent">Go</span></span>
           </div>
-        </a>
-        <a href="#" class="app-btn">
-          <span class="app-btn-icon">▶</span>
-          <div>
-            <span class="app-btn-small">Get it on</span>
-            <span class="app-btn-store">Google Play</span>
+          <p>Fast. Fresh. Reliable.<br />Delivered in minutes.</p>
+          <div class="social-links">
+            <a href="#">X</a>
+            <a href="#">in</a>
+            <a href="#">f</a>
           </div>
-        </a>
-      </div>
-    </div>
-  </section>
+        </div>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <div class="logo">
-          <span class="logo-icon">⚡</span>
-          <span class="logo-text">Vista<span class="logo-accent">Go</span></span>
-        </div>
-        <p>Fast. Fresh. Reliable.<br/>Delivered in minutes.</p>
-        <div class="social-links">
-          <a href="#">X</a>
-          <a href="#">in</a>
-          <a href="#">f</a>
-        </div>
-      </div>
-
-      <div class="footer-links">
-        <div class="footer-col">
-          <h5>Company</h5>
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Press</a>
-          <a href="#">Blog</a>
-        </div>
-        <div class="footer-col">
-          <h5>Partner</h5>
-          <a href="#">Sell on Vista Go</a>
-          <a href="#">Become a Rider</a>
-          <a href="#">Dark Store Hub</a>
-        </div>
-        <div class="footer-col">
-          <h5>Help</h5>
-          <a href="#">FAQs</a>
-          <a href="#">Contact Us</a>
-          <a href="#">Refund Policy</a>
-          <a href="#">Privacy Policy</a>
-        </div>
-        <div class="footer-col">
-          <h5>Cities</h5>
-          <a href="#">Mumbai</a>
-          <a href="#">Delhi NCR</a>
-          <a href="#">Bangalore</a>
-          <a href="#">Hyderabad</a>
-          <a href="#">Ludhiana</a>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h5>Company</h5>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Press</a>
+            <a href="#">Blog</a>
+          </div>
+          <div class="footer-col">
+            <h5>Partner</h5>
+            <a href="#">Sell on Vista Go</a>
+            <a href="#">Become a Rider</a>
+            <a href="#">Dark Store Hub</a>
+          </div>
+          <div class="footer-col">
+            <h5>Help</h5>
+            <a href="#">FAQs</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+          <div class="footer-col">
+            <h5>Cities</h5>
+            <a href="#">Mumbai</a>
+            <a href="#">Delhi NCR</a>
+            <a href="#">Bangalore</a>
+            <a href="#">Hyderabad</a>
+            <a href="#">Ludhiana</a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="footer-bottom">
-     <a href="main.html"><button class="btn-primary">Back to Home</button></a>
-    </div>
-  </footer>
+      <div class="footer-bottom">
+        <a href="main.html"><button class="btn-primary">Back to Home</button></a>
+      </div>
+    </footer>
 
 </body>
+
 </html>
